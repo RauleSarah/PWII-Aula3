@@ -1,18 +1,11 @@
-let idade = 18
+let nota = 9
+let nota2 = 7
+let nota3 = 5
+let media = (nota + nota2 + nota3)/3
 
-if (idade >= 18 && idade < 67) {
-    console.log("Você pode ser doador sua idade é "+ idade)
-    
-} 
-else {
-    console.log("Você não pode ser doador sua idade é "+ idade)
+if(media >= 5){
+        console.log("Você foi aprovado!, e a sua média foi " + media)
 }
-let idade2 = 70
-
-if (idade2 >= 18 && idade2 < 67) {
-    console.log("Você pode ser doador sua idade é "+ idade2)
-    
-} 
-else {
-    console.log("Você não pode ser doador sua idade é "+ idade2)
+else{
+    console.log("Você foi reprovado, sua média foi, " + media)
 }
