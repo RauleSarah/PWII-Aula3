@@ -1,6 +1,6 @@
 var n1 = 9;
 var n2 = 7;
-var n3 = 5;
+//let n3 = 5
 /*let media = (nota + nota2 + nota3)/3
 ------------------- MODO SEM FUNCTION IF ELSE -------------------
 //if(media >= 5){
@@ -15,5 +15,8 @@ else{
 }
 console.log("A média é: " + fMedia(n1,n2,n3))*/
 //----------------- MODO SIMPLIFICADO COM FUNCTION ---------------------------
-var fmedia = function (n1, n2, n3) { return (n1 + n2 + n3) / 3; };
-console.log("A media e: " + fmedia(n1, n2, n3));
+var fmedia = function (n1, n2, n3) {
+    if (n3 === void 0) { n3 = 7; }
+    return (n1 + n2 + n3) / 3;
+};
+console.log("A media e: " + fmedia(n1, n2));
