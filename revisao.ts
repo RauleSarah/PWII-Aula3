@@ -16,4 +16,4 @@ else{
 console.log("A média é: " + fMedia(n1,n2,n3))*/
 //----------------- MODO SIMPLIFICADO COM FUNCTION ---------------------------
 let fmedia = (n1:number,n2:number,n3:number) => (n1 + n2 + n3) / 3
-console.log(`A media e: ${fMedia(n1,n2,n3)}`)
+console.log(`A media e: ${fmedia(n1,n2,n3)}`)
